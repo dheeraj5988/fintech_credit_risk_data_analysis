@@ -439,9 +439,7 @@ def main():
     df = clean_data(df)
 
     if SAMPLE_FRAC < 1.0:
-        df = df.groupby("default", group_keys=False).apply(
-            lambda x: x.sample(frac=SAMPLE_FRAC, random_state=RANDOM_STATE)
-        )
+        df = df.groupby("default").sample(frac=SAMPLE_FRAC, random_state=RANDOM_STATE)
         logger.info(f"Sampled down to {len(df):,} rows (SAMPLE_FRAC={SAMPLE_FRAC})")
 
     print(f"\n{'='*70}\nFINAL CLEANED DATASET: {df.shape[0]:,} rows × {df.shape[1]} columns\n{'='*70}\n")
