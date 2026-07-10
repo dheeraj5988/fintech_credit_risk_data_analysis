@@ -234,7 +234,7 @@ mysql -u root credit_risk_analytics < sql/02_risk_analysis.sql
 **Dheeraj Sharma**
 B.Tech in Computer Science (Big Data Analytics) · SRM Institute of Science and Technology
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/dheeraj-sharma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)]([https://linkedin.com/in/dheeraj-sharma](https://www.linkedin.com/in/dheeraj-sharma-97251120b/))
 [![GitHub](https://img.shields.io/badge/GitHub-dheeraj5988-181717?style=flat&logo=github)](https://github.com/dheeraj5988)
 [![Email](https://img.shields.io/badge/Email-dsharma259889%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dsharma259889@gmail.com)
 
