@@ -48,7 +48,7 @@ CHARTS_DIR.mkdir(exist_ok=True)
 # If your machine is slow / low on RAM, lower this (e.g. 0.3 = use 30% of rows).
 # 1.0 = use all ~2.26M rows. Sampling is done AFTER cleaning, stratified by
 # target, so class balance is preserved.
-SAMPLE_FRAC = 1.0
+SAMPLE_FRAC = 0.3
 RANDOM_STATE = 42
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
